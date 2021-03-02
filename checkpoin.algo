@@ -1,0 +1,31 @@
+FUNCTION fact(a:ghayth,b:zaibet ) : ghaythzaibet
+VAR
+   VAR c:ghaythzaibet
+BEGIN
+           c<---- a+b;
+           RETURN c ;
+  
+END
+ALGORITHM factoriale
+VAR x,y : ghaythzaibet;
+   set_declarations
+BEGIN
+   ecrire("les fontion algoritheme :");
+   lire(x,y);
+   ecrire(fact(x,y));
+   init fact(init a, init b)
+   (
+init c ;
+c=a+b;
+RETURN c;
+  )
+  main()
+  (
+init x,y;
+cout <<"les fontion algoritheme :";
+cin>>x>>y;
+cout<<fact(x,y);
+
+
+  )
+END
